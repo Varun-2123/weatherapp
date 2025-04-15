@@ -51,7 +51,7 @@ class _WeatherPageState extends State<WeatherPage> {
         Colors.lightBlue,
         Colors.blueAccent,
       ];
-    } else if (hour >= 17 && hour < 19) {
+    } else if (hour >= 16 && hour < 19) {
       // Evening
       return [Colors.yellow, Colors.deepOrange, Colors.purple];
     } else {
