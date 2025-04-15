@@ -70,20 +70,20 @@ class _WeatherPageState extends State<WeatherPage> {
       return "assets/weather_animation/sunny.json";
     }
     switch (mainCondition) {
-      case "clouds":
-      case "haze":
-      case "smoke":
-      case "mist":
-      case "dust":
-      case "fog":
+      case "Clouds":
+      case "Haze":
+      case "Smoke":
+      case "Mist":
+      case "Dust":
+      case "Fog":
         return "assets/weather_animation/cloudy.json";
-      case "rain":
-      case "drizzle":
-      case "shower rain":
+      case "Rain":
+      case "Drizzle":
+      case "Shower rain":
         return "assets/weather_animation/raining.json";
-      case "thunderstorm":
+      case "Thunderstorm":
         return "assets/weather_animation/thunderstorm.json";
-      case "clear":
+      case "Clear":
         if (hour > 18 || hour < 6) {
           return "assets/weather_animation/clear_night.json";
         } else {
