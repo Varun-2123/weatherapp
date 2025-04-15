@@ -154,6 +154,15 @@ class _WeatherPageState extends State<WeatherPage> {
                           fontFamily: "SpecialGothic",
                         ),
                       ),
+                      Text(
+                        _weather?.mainCondition ?? "loading...",
+                        style: TextStyle(
+                          fontSize: 28,
+                          fontWeight: FontWeight.w400,
+                          color: Colors.white,
+                          fontFamily: "SpecialGothic",
+                        ),
+                      ),
                     ],
                   ),
         ),
